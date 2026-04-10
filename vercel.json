@@ -1,7 +1,6 @@
-{
-  "functions": {
-    "api/predict.py": {
-      "runtime": "python3.11"
+"functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x" 
     }
   }
 }
